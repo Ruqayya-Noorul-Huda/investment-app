@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'https://investsmart-backend-yfa4.onrender.com/';
+const BASE_URL = 'https://investsmart-backend-yfa4.onrender.com/api';
 
 const getToken = () => localStorage.getItem('token');
 
